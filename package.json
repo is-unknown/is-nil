@@ -1,0 +1,24 @@
+{
+  "name": "@is-(unknown)/is-nil",
+  "version": "1.0.0",
+  "description": "is nil",
+  "homepage": "https://github.com/is-unknown/is-nil#readme",
+  "bugs": {
+    "url": "https://github.com/is-unknown/is-nil/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is-unknown/is-nil.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aply": "^0.9.0",
+    "is-nil-x": "^1.4.2"
+  }
+}
