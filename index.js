@@ -1,6 +1,6 @@
-var aply = require('aply')
-var isNilX = require('is-nil-x')
+var isNull      = require('@is-(unknown)/is-null')
+var isUndefined = require('@is-(unknown)/is-undefined')
 
 module.exports = function isNil(value) {
-  return aply(isNilX, this, [value])
+  return isNull(value) || isUndefined(value)
 }

@@ -1,7 +1,7 @@
 {
   "name": "@is-(unknown)/is-nil",
-  "version": "1.0.0",
-  "description": "is nil",
+  "version": "1.2.0",
+  "description": "Checks if a value is null or undefined.",
   "homepage": "https://github.com/is-unknown/is-nil#readme",
   "bugs": {
     "url": "https://github.com/is-unknown/is-nil/issues"
@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "aply": "^0.9.0",
-    "is-nil-x": "^1.4.2"
+    "@is-(unknown)/is-null": "^1.2.0",
+    "@is-(unknown)/is-undefined": "^1.2.0"
   }
 }
